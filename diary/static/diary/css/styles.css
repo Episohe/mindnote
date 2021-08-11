@@ -568,6 +568,15 @@ img {
 .delete-box li{
     display: inline-block;
 }
+.delete-box ul li:nth-child(1){
+    display: block;
+    padding-right: 80px;
+}
+.delete-box ul li:nth-child(1) input:hover{
+    background-color: lightcoral;
+    border: solid 1px #ffffff;
+}
+
 .delete-box li a{
     display: block;
     padding: 11px 22px;
@@ -583,7 +592,6 @@ img {
     color: #4e4f53;
     background-color: transparent;
 }
-
 
 /*wrap-mindnote*/
 .wrap-mindnote{
