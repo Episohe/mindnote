@@ -1,2 +1,10 @@
 # Project exclude paths
-/venv/
+__pychache__/
+*py[cod]
+
+.python
+venv/
+
+db.sqlite3
+.DS_store
+
